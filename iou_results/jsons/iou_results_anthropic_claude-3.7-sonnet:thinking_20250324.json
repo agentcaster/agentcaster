@@ -1,0 +1,32 @@
+{
+  "date": "20250324",
+  "model": "anthropic_claude-3.7-sonnet:thinking",
+  "per_category_iou": {
+    "2%": 0.0,
+    "5%": 0.0,
+    "10%": 0.0,
+    "15%": 1.0,
+    "30%": 1.0,
+    "45%": 1.0,
+    "60%": 1.0,
+    "0%": 0.9438277138441673
+  },
+  "daily_mean_iou": 0.6179784642305209,
+  "daily_tornadobench": 0.0,
+  "daily_weight": 1,
+  "is_false_alarm": true,
+  "is_hard_hallucination": true,
+  "max_risk_status": "over",
+  "daily_weighted_hallucination_loss": 10.0,
+  "gt_overall_centroid_x": null,
+  "gt_overall_centroid_y": null,
+  "pred_overall_centroid_x": 907096.2527357773,
+  "pred_overall_centroid_y": 280541.4592717363,
+  "overall_centroid_distance": null,
+  "gt_hr_centroid_x": null,
+  "gt_hr_centroid_y": null,
+  "pred_hr_centroid_x": -24327.05373972535,
+  "pred_hr_centroid_y": 500996.5558750282,
+  "hr_centroid_distance": null,
+  "gt_had_actual_risk": false
+}

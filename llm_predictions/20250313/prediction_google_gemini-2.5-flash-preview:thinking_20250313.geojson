@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "10%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.5,
+              33.0
+            ],
+            [
+              -84.4,
+              33.7
+            ],
+            [
+              -81.0,
+              34.0
+            ],
+            [
+              -82.0,
+              33.5
+            ],
+            [
+              -85.5,
+              33.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "5%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.0,
+              33.5
+            ],
+            [
+              -86.3,
+              32.3
+            ],
+            [
+              -84.3,
+              30.5
+            ],
+            [
+              -80.0,
+              32.8
+            ],
+            [
+              -80.8,
+              35.2
+            ],
+            [
+              -87.0,
+              33.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "2%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2,
+              32.3
+            ],
+            [
+              -88.0,
+              30.7
+            ],
+            [
+              -81.4,
+              28.5
+            ],
+            [
+              -78.6,
+              35.8
+            ],
+            [
+              -86.8,
+              36.2
+            ],
+            [
+              -90.2,
+              32.3
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

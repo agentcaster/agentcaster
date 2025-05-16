@@ -1,0 +1,32 @@
+{
+  "date": "20250304",
+  "model": "google_gemini-2.5-pro-preview-03-25",
+  "per_category_iou": {
+    "2%": 0.0,
+    "5%": 0.0,
+    "10%": 0.0,
+    "15%": 1.0,
+    "30%": 1.0,
+    "45%": 1.0,
+    "60%": 1.0,
+    "0%": 0.9145669020104671
+  },
+  "daily_mean_iou": 0.6143208627513084,
+  "daily_tornadobench": 0.0,
+  "daily_weight": 10,
+  "is_false_alarm": false,
+  "is_hard_hallucination": true,
+  "max_risk_status": "match",
+  "daily_weighted_hallucination_loss": 10.0,
+  "gt_overall_centroid_x": 181893.19633800213,
+  "gt_overall_centroid_y": 835829.3433006844,
+  "pred_overall_centroid_x": 839102.8209775467,
+  "pred_overall_centroid_y": 1366081.731148719,
+  "overall_centroid_distance": 844447.799178489,
+  "gt_hr_centroid_x": 101506.35982428078,
+  "gt_hr_centroid_y": 816270.1677316296,
+  "pred_hr_centroid_x": 830199.4751312088,
+  "pred_hr_centroid_y": 1351240.75583979,
+  "hr_centroid_distance": 903984.0631540508,
+  "gt_had_actual_risk": true
+}

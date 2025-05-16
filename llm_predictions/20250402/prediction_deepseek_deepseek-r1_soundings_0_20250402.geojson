@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 10,
+        "label": "10%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.8,
+              35.0
+            ],
+            [
+              -97.2,
+              35.6
+            ],
+            [
+              -96.5,
+              35.9
+            ],
+            [
+              -95.6,
+              35.1
+            ],
+            [
+              -96.2,
+              34.6
+            ],
+            [
+              -97.8,
+              35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 5,
+        "label": "5%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5,
+              34.0
+            ],
+            [
+              -98.8,
+              37.2
+            ],
+            [
+              -95.0,
+              37.0
+            ],
+            [
+              -94.2,
+              34.2
+            ],
+            [
+              -96.8,
+              33.5
+            ],
+            [
+              -99.5,
+              34.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 2,
+        "label": "2%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.5,
+              32.5
+            ],
+            [
+              -100.0,
+              38.5
+            ],
+            [
+              -92.5,
+              38.0
+            ],
+            [
+              -93.0,
+              32.0
+            ],
+            [
+              -97.0,
+              31.5
+            ],
+            [
+              -100.5,
+              32.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

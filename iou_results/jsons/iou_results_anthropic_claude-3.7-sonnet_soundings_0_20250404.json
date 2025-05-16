@@ -1,0 +1,32 @@
+{
+  "date": "20250404",
+  "model": "anthropic_claude-3.7-sonnet_soundings_0",
+  "per_category_iou": {
+    "2%": 0.009228051564434988,
+    "5%": 0.039739732105980925,
+    "10%": 0.06465778680557525,
+    "15%": 0.0,
+    "30%": 1.0,
+    "45%": 1.0,
+    "60%": 1.0,
+    "0%": 0.8529236610267787
+  },
+  "daily_mean_iou": 0.49581865393784624,
+  "daily_tornadobench": 0.028406392618997793,
+  "daily_weight": 15,
+  "is_false_alarm": false,
+  "is_hard_hallucination": false,
+  "max_risk_status": "match",
+  "daily_weighted_hallucination_loss": 0.0,
+  "gt_overall_centroid_x": 141021.1225558658,
+  "gt_overall_centroid_y": 1018622.8910614525,
+  "pred_overall_centroid_x": 450563.47231279657,
+  "pred_overall_centroid_y": 1219569.845058697,
+  "overall_centroid_distance": 369047.6183554269,
+  "gt_hr_centroid_x": -831.8396739135369,
+  "gt_hr_centroid_y": 894639.8885869561,
+  "pred_hr_centroid_x": 195629.83208715633,
+  "pred_hr_centroid_y": 1145176.404854886,
+  "hr_centroid_distance": 318379.8587455323,
+  "gt_had_actual_risk": true
+}

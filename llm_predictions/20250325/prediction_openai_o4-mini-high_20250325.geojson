@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "2%"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -97,
+                27
+              ],
+              [
+                -85,
+                27
+              ],
+              [
+                -85,
+                34
+              ],
+              [
+                -97,
+                34
+              ],
+              [
+                -97,
+                27
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -85,
+                25
+              ],
+              [
+                -80,
+                25
+              ],
+              [
+                -80,
+                27
+              ],
+              [
+                -85,
+                27
+              ],
+              [
+                -85,
+                25
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "5%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93,
+              28
+            ],
+            [
+              -86,
+              28
+            ],
+            [
+              -86,
+              33
+            ],
+            [
+              -93,
+              33
+            ],
+            [
+              -93,
+              28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "10%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91,
+              29
+            ],
+            [
+              -88,
+              29
+            ],
+            [
+              -88,
+              32
+            ],
+            [
+              -91,
+              32
+            ],
+            [
+              -91,
+              29
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

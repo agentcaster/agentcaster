@@ -1,0 +1,128 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "2%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -101,
+              29
+            ],
+            [
+              -101,
+              36
+            ],
+            [
+              -93,
+              36
+            ],
+            [
+              -89,
+              34
+            ],
+            [
+              -89,
+              30
+            ],
+            [
+              -94,
+              29
+            ],
+            [
+              -101,
+              29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "5%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99,
+              30
+            ],
+            [
+              -99,
+              34
+            ],
+            [
+              -96,
+              34
+            ],
+            [
+              -93.5,
+              33.5
+            ],
+            [
+              -92.5,
+              32.5
+            ],
+            [
+              -93.5,
+              31.5
+            ],
+            [
+              -96,
+              30.5
+            ],
+            [
+              -99,
+              30
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "10%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97,
+              32
+            ],
+            [
+              -97,
+              34
+            ],
+            [
+              -95,
+              34
+            ],
+            [
+              -94,
+              33
+            ],
+            [
+              -95,
+              32
+            ],
+            [
+              -97,
+              32
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

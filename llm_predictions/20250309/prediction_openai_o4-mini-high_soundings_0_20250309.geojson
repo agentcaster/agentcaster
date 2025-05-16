@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "2%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.0,
+              35.0
+            ],
+            [
+              -104.0,
+              41.0
+            ],
+            [
+              -94.0,
+              41.0
+            ],
+            [
+              -94.0,
+              35.0
+            ],
+            [
+              -104.0,
+              35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "5%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.0,
+              36.0
+            ],
+            [
+              -102.0,
+              40.0
+            ],
+            [
+              -96.0,
+              40.0
+            ],
+            [
+              -96.0,
+              36.0
+            ],
+            [
+              -102.0,
+              36.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "10%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.0,
+              37.0
+            ],
+            [
+              -100.0,
+              39.0
+            ],
+            [
+              -98.0,
+              39.0
+            ],
+            [
+              -98.0,
+              37.0
+            ],
+            [
+              -100.0,
+              37.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "15%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5,
+              37.5
+            ],
+            [
+              -99.5,
+              38.5
+            ],
+            [
+              -98.5,
+              38.5
+            ],
+            [
+              -98.5,
+              37.5
+            ],
+            [
+              -99.5,
+              37.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

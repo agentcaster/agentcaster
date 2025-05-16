@@ -1,0 +1,9 @@
+{
+  "models": ["anthropic/claude-3.7-sonnet"],
+  "max_soundings_per_day": 50,
+  "logging_enabled": true,
+  "data_dir": "dataset",
+  "start_date": "20250301",
+  "end_date": "20250409",
+  "api_key_file": "openrouter_api_key.txt"
+}

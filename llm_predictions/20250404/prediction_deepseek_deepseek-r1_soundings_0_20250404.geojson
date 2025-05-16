@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 2,
+        "fill": "#ffff99"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -100.0,
+                33.5
+              ],
+              [
+                -96.0,
+                33.5
+              ],
+              [
+                -95.5,
+                37.0
+              ],
+              [
+                -92.0,
+                37.0
+              ],
+              [
+                -92.0,
+                35.0
+              ],
+              [
+                -100.0,
+                35.0
+              ],
+              [
+                -100.0,
+                33.5
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 5,
+        "fill": "#fdc404"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -98.5,
+                35.0
+              ],
+              [
+                -96.0,
+                35.0
+              ],
+              [
+                -96.0,
+                37.0
+              ],
+              [
+                -94.5,
+                37.0
+              ],
+              [
+                -94.5,
+                35.5
+              ],
+              [
+                -98.5,
+                35.5
+              ],
+              [
+                -98.5,
+                35.0
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": 10,
+        "fill": "#ff0000"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -97.8,
+                35.3
+              ],
+              [
+                -97.2,
+                35.3
+              ],
+              [
+                -97.2,
+                35.8
+              ],
+              [
+                -97.8,
+                35.8
+              ],
+              [
+                -97.8,
+                35.3
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

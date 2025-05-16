@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "2%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.0,
+              29.0
+            ],
+            [
+              -93.0,
+              29.0
+            ],
+            [
+              -93.0,
+              30.5
+            ],
+            [
+              -96.0,
+              30.5
+            ],
+            [
+              -96.0,
+              29.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

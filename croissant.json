@@ -1,0 +1,1518 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "AgentCaster: Reasoning-Guided Tornado Forecasting",
+  "description": "Dataset for AgentCaster: Reasoning-Guided Tornado Forecasting. A comprehensive dataset of High-Resolution Rapid Refresh (HRRR) model outputs, associated plots, BUFKIT soundings, ground truth weather reports, and Storm Prediction Center (SPC) outlooks. This dataset spans 40 days and is structured for use in machine learning applications related to weather forecasting and analysis.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "For citation, please refer to the AgentCaster project. If you use this dataset, please cite the relevant work.",
+  "license": "cc-by-4.0",
+  "url": "https://huggingface.co/datasets/agentcaster/agentcaster",
+  "version": "1.0.0",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250301",
+      "name": "HRRR Data for 2025-03-01",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 01, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250301_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "644577a1de4dc1c893b459dffd1700ce9a30d588d04faf71e5a6ed594833b333"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250302",
+      "name": "HRRR Data for 2025-03-02",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 02, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250302_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "e8d5e725fbf964dd41cec1a94c5122dc2cc5b31be19af31e1a4aafd839051a32"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250303",
+      "name": "HRRR Data for 2025-03-03",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 03, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250303_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "ee5704ed7fa9027d784aaa2b7d98c622530cef86127b383ea83da328b6c4ce56"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250304",
+      "name": "HRRR Data for 2025-03-04",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 04, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250304_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a0d0359171f67f68277a92dff57861c71c5c6631c5b203007bc56c9564a6e529"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250305",
+      "name": "HRRR Data for 2025-03-05",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 05, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250305_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0910815e176e01388c1edfb4e2971efc8ec2888384717acd6b54a6a8043a0f18"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250306",
+      "name": "HRRR Data for 2025-03-06",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 06, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250306_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "24fa9c4a6e1c058e03b7483f87e0e74ebee1b6050e31c58460287e4a1bec348a"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250307",
+      "name": "HRRR Data for 2025-03-07",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 07, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250307_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6beeeb8cac399e0dc7b3f7b5eead4d879c85afcc24c24306b4dc97e351a75e49"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250308",
+      "name": "HRRR Data for 2025-03-08",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 08, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250308_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a5455b5eb8091f128110b55f18980a15223df3bfc10b8bd07df57a76765c1501"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250309",
+      "name": "HRRR Data for 2025-03-09",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 09, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250309_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0ca29968635e063416f5bee73f2543fe85bf385bcdb1880654d3f15c1fa20735"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250310",
+      "name": "HRRR Data for 2025-03-10",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 10, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250310_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b4a9571bbc0eb0e6da603ecb6ba3d2e6ad16751970db7d076884fda8beb6afd4"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250311",
+      "name": "HRRR Data for 2025-03-11",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 11, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250311_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "9b842490a953b8cdda8ce64a0d255df5f7ec9891c33be7cc8234daaea22ee6d3"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250312",
+      "name": "HRRR Data for 2025-03-12",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 12, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250312_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "8fb49862027f382130931559a6c5830674da6547904edf5db1d27a7b1e1f1080"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250313",
+      "name": "HRRR Data for 2025-03-13",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 13, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250313_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d6079a89aaa079bd2941ffd00b8bee6599e11ec251cb4c0ba7170ef2fd916070"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250314",
+      "name": "HRRR Data for 2025-03-14",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 14, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250314_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6d76d2b597b7677b147d4b60a471b69e3c1d6911c0d67dcab28904d1128685b2"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250315",
+      "name": "HRRR Data for 2025-03-15",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 15, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250315_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c8a43d07bc894203071cf632fa829e1fa7dff1c122e8c41c58b3d1c2c3ac93d5"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250316",
+      "name": "HRRR Data for 2025-03-16",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 16, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250316_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5377959abe995f897bc5c4c6c0fa745b879d07c1b6d9f7d075b49ea5c86ef7d4"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250317",
+      "name": "HRRR Data for 2025-03-17",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 17, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250317_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2192de99e1ccdedadae8ed5f86508d5d51a3ce6f9c14e0f5195254e80e4a8ed4"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250318",
+      "name": "HRRR Data for 2025-03-18",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 18, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250318_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0f09ac8868060b8e04b1e080f6a3c0d65417b692aa4f957c6aebb13dca645a5c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250319",
+      "name": "HRRR Data for 2025-03-19",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 19, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250319_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "52b46b025c26f832fc088b3f3cdc57dec2e5371e7d1608cc593077d9ca7b0ce9"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250320",
+      "name": "HRRR Data for 2025-03-20",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 20, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250320_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "3aeffa07dbeda1bb9dea72a196ce278726d9677ff81597052fe4e5754522930e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250321",
+      "name": "HRRR Data for 2025-03-21",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 21, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250321_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "049b6de98e71097006d740214ecd6aefc8460881595b5b6b68862f51c1964388"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250322",
+      "name": "HRRR Data for 2025-03-22",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 22, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250322_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "10fe15c959eaa7c3ac7f8c76f1fa6e1aea1c9c13af4e958fd74a1c4a0b959d17"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250323",
+      "name": "HRRR Data for 2025-03-23",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 23, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250323_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "62d98f20abdc24cb294ef63c9fad69b126469cd4e31f35f72e8b003e30c3b75c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250324",
+      "name": "HRRR Data for 2025-03-24",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 24, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250324_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f8461f50b27ef8ef378c6a020f9c5f0327cf03daae8c542d54a77ab0c4648626"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250325",
+      "name": "HRRR Data for 2025-03-25",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 25, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250325_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "34be75aadce14daf733039175ed99e00c6e9eb7a67e577e9872686e2abfdbee2"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250326",
+      "name": "HRRR Data for 2025-03-26",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 26, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250326_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "fa8879c8a0a48618f6b011be31518732def51e8401855bc0448eff3c835929f0"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250327",
+      "name": "HRRR Data for 2025-03-27",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 27, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250327_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c1d3ebe24ad87f4a51522d8c23a4d7fe83f48d491afcb3f79847ad4022de08a9"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250328",
+      "name": "HRRR Data for 2025-03-28",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 28, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250328_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d7ac4ddcfbf5a289748cc5a022d02e80a382d1ab0397ef156e8ced7e397725a3"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250329",
+      "name": "HRRR Data for 2025-03-29",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 29, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250329_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6f8c5340922de13c0453a7da8996829a37dea9dc644c65f184682a1c85903fe1"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250330",
+      "name": "HRRR Data for 2025-03-30",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 30, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250330_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "01c87a68625b6ccf509cb813aa1a5e6f53290430c2f81d5e12eac51ba293d4c7"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250331",
+      "name": "HRRR Data for 2025-03-31",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for March 31, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250331_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "8712021592a00b1570743f8e50852b12d8b5d0e73f9fa1897d1cbb158a5ff448"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250401",
+      "name": "HRRR Data for 2025-04-01",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 01, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250401_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "15817df7e0194c803f81d39581858bc7c6519fc44a06d65ce8580faace743897"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250402",
+      "name": "HRRR Data for 2025-04-02",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 02, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250402_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "4896d62ed0cd74bf7c2b7f81a1b32c3ebe29f15a30353850b430ef669a871414"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250403",
+      "name": "HRRR Data for 2025-04-03",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 03, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250403_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "4264927abf8fff08e4808e7861a3572d39dcf66d63c6daeb078acb49188df20c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250404",
+      "name": "HRRR Data for 2025-04-04",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 04, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250404_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "e5c84fa41f4e478c833c5cb857d20af6d4b1d1f8c6a65e6b454eb277177fdbc1"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250405",
+      "name": "HRRR Data for 2025-04-05",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 05, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250405_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b68c3e81f4f1b1df2a0a309184b72baf9a54285f7a7bfecf8ba7a2fcb40efa22"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250406",
+      "name": "HRRR Data for 2025-04-06",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 06, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250406_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "eef0df25b47a02a9123ddddc7f2cdd7a5ae22671c651807c5747fbc5347b249e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250407",
+      "name": "HRRR Data for 2025-04-07",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 07, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250407_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d73229aee4a168bcc1149912672f31f50e56bf5e905f869d3880f1a08d26e942"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250408",
+      "name": "HRRR Data for 2025-04-08",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 08, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250408_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f2505e84dd0de7105c7631694808bccb3b4da278ef1e4cb057ffc272c1faa0a5"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "zip-20250409",
+      "name": "HRRR Data for 2025-04-09",
+      "description": "High-Resolution Rapid Refresh (HRRR) weather data archive for April 09, 2025.",
+      "contentUrl": "https://huggingface.co/datasets/agentcaster/agentcaster/resolve/main/hrrr_20250409_00z.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "505841123b1aff0e94c03c6b8534111bd6d06b69e967ca7d9df08f7594e9b09a"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "bufkit-files",
+      "name": "bufkit-files",
+      "description": "HRRR model sounding data in BUFKIT format. Each file corresponds to a specific station and date.",
+      "containedIn": [
+        {
+          "@id": "zip-20250301"
+        },
+        {
+          "@id": "zip-20250302"
+        },
+        {
+          "@id": "zip-20250303"
+        },
+        {
+          "@id": "zip-20250304"
+        },
+        {
+          "@id": "zip-20250305"
+        },
+        {
+          "@id": "zip-20250306"
+        },
+        {
+          "@id": "zip-20250307"
+        },
+        {
+          "@id": "zip-20250308"
+        },
+        {
+          "@id": "zip-20250309"
+        },
+        {
+          "@id": "zip-20250310"
+        },
+        {
+          "@id": "zip-20250311"
+        },
+        {
+          "@id": "zip-20250312"
+        },
+        {
+          "@id": "zip-20250313"
+        },
+        {
+          "@id": "zip-20250314"
+        },
+        {
+          "@id": "zip-20250315"
+        },
+        {
+          "@id": "zip-20250316"
+        },
+        {
+          "@id": "zip-20250317"
+        },
+        {
+          "@id": "zip-20250318"
+        },
+        {
+          "@id": "zip-20250319"
+        },
+        {
+          "@id": "zip-20250320"
+        },
+        {
+          "@id": "zip-20250321"
+        },
+        {
+          "@id": "zip-20250322"
+        },
+        {
+          "@id": "zip-20250323"
+        },
+        {
+          "@id": "zip-20250324"
+        },
+        {
+          "@id": "zip-20250325"
+        },
+        {
+          "@id": "zip-20250326"
+        },
+        {
+          "@id": "zip-20250327"
+        },
+        {
+          "@id": "zip-20250328"
+        },
+        {
+          "@id": "zip-20250329"
+        },
+        {
+          "@id": "zip-20250330"
+        },
+        {
+          "@id": "zip-20250331"
+        },
+        {
+          "@id": "zip-20250401"
+        },
+        {
+          "@id": "zip-20250402"
+        },
+        {
+          "@id": "zip-20250403"
+        },
+        {
+          "@id": "zip-20250404"
+        },
+        {
+          "@id": "zip-20250405"
+        },
+        {
+          "@id": "zip-20250406"
+        },
+        {
+          "@id": "zip-20250407"
+        },
+        {
+          "@id": "zip-20250408"
+        },
+        {
+          "@id": "zip-20250409"
+        }
+      ],
+      "encodingFormat": "text/plain",
+      "includes": "*/bufkit/*.buf"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "ground-truth-reports",
+      "name": "ground-truth-reports",
+      "description": "Ground truth severe weather reports (e.g., tornado, hail, wind) in CSV format.",
+      "containedIn": [
+        {
+          "@id": "zip-20250301"
+        },
+        {
+          "@id": "zip-20250302"
+        },
+        {
+          "@id": "zip-20250303"
+        },
+        {
+          "@id": "zip-20250304"
+        },
+        {
+          "@id": "zip-20250305"
+        },
+        {
+          "@id": "zip-20250306"
+        },
+        {
+          "@id": "zip-20250307"
+        },
+        {
+          "@id": "zip-20250308"
+        },
+        {
+          "@id": "zip-20250309"
+        },
+        {
+          "@id": "zip-20250310"
+        },
+        {
+          "@id": "zip-20250311"
+        },
+        {
+          "@id": "zip-20250312"
+        },
+        {
+          "@id": "zip-20250313"
+        },
+        {
+          "@id": "zip-20250314"
+        },
+        {
+          "@id": "zip-20250315"
+        },
+        {
+          "@id": "zip-20250316"
+        },
+        {
+          "@id": "zip-20250317"
+        },
+        {
+          "@id": "zip-20250318"
+        },
+        {
+          "@id": "zip-20250319"
+        },
+        {
+          "@id": "zip-20250320"
+        },
+        {
+          "@id": "zip-20250321"
+        },
+        {
+          "@id": "zip-20250322"
+        },
+        {
+          "@id": "zip-20250323"
+        },
+        {
+          "@id": "zip-20250324"
+        },
+        {
+          "@id": "zip-20250325"
+        },
+        {
+          "@id": "zip-20250326"
+        },
+        {
+          "@id": "zip-20250327"
+        },
+        {
+          "@id": "zip-20250328"
+        },
+        {
+          "@id": "zip-20250329"
+        },
+        {
+          "@id": "zip-20250330"
+        },
+        {
+          "@id": "zip-20250331"
+        },
+        {
+          "@id": "zip-20250401"
+        },
+        {
+          "@id": "zip-20250402"
+        },
+        {
+          "@id": "zip-20250403"
+        },
+        {
+          "@id": "zip-20250404"
+        },
+        {
+          "@id": "zip-20250405"
+        },
+        {
+          "@id": "zip-20250406"
+        },
+        {
+          "@id": "zip-20250407"
+        },
+        {
+          "@id": "zip-20250408"
+        },
+        {
+          "@id": "zip-20250409"
+        }
+      ],
+      "encodingFormat": "text/csv",
+      "includes": "*/ground_truth/*_rpts_*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "hrrr-grib2-maps",
+      "name": "hrrr-grib2-maps",
+      "description": "HRRR model output in GRIB2 format, representing various meteorological fields.",
+      "containedIn": [
+        {
+          "@id": "zip-20250301"
+        },
+        {
+          "@id": "zip-20250302"
+        },
+        {
+          "@id": "zip-20250303"
+        },
+        {
+          "@id": "zip-20250304"
+        },
+        {
+          "@id": "zip-20250305"
+        },
+        {
+          "@id": "zip-20250306"
+        },
+        {
+          "@id": "zip-20250307"
+        },
+        {
+          "@id": "zip-20250308"
+        },
+        {
+          "@id": "zip-20250309"
+        },
+        {
+          "@id": "zip-20250310"
+        },
+        {
+          "@id": "zip-20250311"
+        },
+        {
+          "@id": "zip-20250312"
+        },
+        {
+          "@id": "zip-20250313"
+        },
+        {
+          "@id": "zip-20250314"
+        },
+        {
+          "@id": "zip-20250315"
+        },
+        {
+          "@id": "zip-20250316"
+        },
+        {
+          "@id": "zip-20250317"
+        },
+        {
+          "@id": "zip-20250318"
+        },
+        {
+          "@id": "zip-20250319"
+        },
+        {
+          "@id": "zip-20250320"
+        },
+        {
+          "@id": "zip-20250321"
+        },
+        {
+          "@id": "zip-20250322"
+        },
+        {
+          "@id": "zip-20250323"
+        },
+        {
+          "@id": "zip-20250324"
+        },
+        {
+          "@id": "zip-20250325"
+        },
+        {
+          "@id": "zip-20250326"
+        },
+        {
+          "@id": "zip-20250327"
+        },
+        {
+          "@id": "zip-20250328"
+        },
+        {
+          "@id": "zip-20250329"
+        },
+        {
+          "@id": "zip-20250330"
+        },
+        {
+          "@id": "zip-20250331"
+        },
+        {
+          "@id": "zip-20250401"
+        },
+        {
+          "@id": "zip-20250402"
+        },
+        {
+          "@id": "zip-20250403"
+        },
+        {
+          "@id": "zip-20250404"
+        },
+        {
+          "@id": "zip-20250405"
+        },
+        {
+          "@id": "zip-20250406"
+        },
+        {
+          "@id": "zip-20250407"
+        },
+        {
+          "@id": "zip-20250408"
+        },
+        {
+          "@id": "zip-20250409"
+        }
+      ],
+      "encodingFormat": "application/grib",
+      "includes": "*/hrrr_maps/*.grib2"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "hrrr-plot-images",
+      "name": "hrrr-plot-images",
+      "description": "Generated plots from HRRR model data, as PNG images, categorized by meteorological variable.",
+      "containedIn": [
+        {
+          "@id": "zip-20250301"
+        },
+        {
+          "@id": "zip-20250302"
+        },
+        {
+          "@id": "zip-20250303"
+        },
+        {
+          "@id": "zip-20250304"
+        },
+        {
+          "@id": "zip-20250305"
+        },
+        {
+          "@id": "zip-20250306"
+        },
+        {
+          "@id": "zip-20250307"
+        },
+        {
+          "@id": "zip-20250308"
+        },
+        {
+          "@id": "zip-20250309"
+        },
+        {
+          "@id": "zip-20250310"
+        },
+        {
+          "@id": "zip-20250311"
+        },
+        {
+          "@id": "zip-20250312"
+        },
+        {
+          "@id": "zip-20250313"
+        },
+        {
+          "@id": "zip-20250314"
+        },
+        {
+          "@id": "zip-20250315"
+        },
+        {
+          "@id": "zip-20250316"
+        },
+        {
+          "@id": "zip-20250317"
+        },
+        {
+          "@id": "zip-20250318"
+        },
+        {
+          "@id": "zip-20250319"
+        },
+        {
+          "@id": "zip-20250320"
+        },
+        {
+          "@id": "zip-20250321"
+        },
+        {
+          "@id": "zip-20250322"
+        },
+        {
+          "@id": "zip-20250323"
+        },
+        {
+          "@id": "zip-20250324"
+        },
+        {
+          "@id": "zip-20250325"
+        },
+        {
+          "@id": "zip-20250326"
+        },
+        {
+          "@id": "zip-20250327"
+        },
+        {
+          "@id": "zip-20250328"
+        },
+        {
+          "@id": "zip-20250329"
+        },
+        {
+          "@id": "zip-20250330"
+        },
+        {
+          "@id": "zip-20250331"
+        },
+        {
+          "@id": "zip-20250401"
+        },
+        {
+          "@id": "zip-20250402"
+        },
+        {
+          "@id": "zip-20250403"
+        },
+        {
+          "@id": "zip-20250404"
+        },
+        {
+          "@id": "zip-20250405"
+        },
+        {
+          "@id": "zip-20250406"
+        },
+        {
+          "@id": "zip-20250407"
+        },
+        {
+          "@id": "zip-20250408"
+        },
+        {
+          "@id": "zip-20250409"
+        }
+      ],
+      "encodingFormat": "image/png",
+      "includes": "*/hrrr_plots/*/*.png"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "spc-outlook-components",
+      "name": "spc-outlook-components",
+      "description": "Storm Prediction Center (SPC) convective outlooks, as individual shapefile component files (e.g., .shp, .shx, .dbf, .prj).",
+      "containedIn": [
+        {
+          "@id": "zip-20250301"
+        },
+        {
+          "@id": "zip-20250302"
+        },
+        {
+          "@id": "zip-20250303"
+        },
+        {
+          "@id": "zip-20250304"
+        },
+        {
+          "@id": "zip-20250305"
+        },
+        {
+          "@id": "zip-20250306"
+        },
+        {
+          "@id": "zip-20250307"
+        },
+        {
+          "@id": "zip-20250308"
+        },
+        {
+          "@id": "zip-20250309"
+        },
+        {
+          "@id": "zip-20250310"
+        },
+        {
+          "@id": "zip-20250311"
+        },
+        {
+          "@id": "zip-20250312"
+        },
+        {
+          "@id": "zip-20250313"
+        },
+        {
+          "@id": "zip-20250314"
+        },
+        {
+          "@id": "zip-20250315"
+        },
+        {
+          "@id": "zip-20250316"
+        },
+        {
+          "@id": "zip-20250317"
+        },
+        {
+          "@id": "zip-20250318"
+        },
+        {
+          "@id": "zip-20250319"
+        },
+        {
+          "@id": "zip-20250320"
+        },
+        {
+          "@id": "zip-20250321"
+        },
+        {
+          "@id": "zip-20250322"
+        },
+        {
+          "@id": "zip-20250323"
+        },
+        {
+          "@id": "zip-20250324"
+        },
+        {
+          "@id": "zip-20250325"
+        },
+        {
+          "@id": "zip-20250326"
+        },
+        {
+          "@id": "zip-20250327"
+        },
+        {
+          "@id": "zip-20250328"
+        },
+        {
+          "@id": "zip-20250329"
+        },
+        {
+          "@id": "zip-20250330"
+        },
+        {
+          "@id": "zip-20250331"
+        },
+        {
+          "@id": "zip-20250401"
+        },
+        {
+          "@id": "zip-20250402"
+        },
+        {
+          "@id": "zip-20250403"
+        },
+        {
+          "@id": "zip-20250404"
+        },
+        {
+          "@id": "zip-20250405"
+        },
+        {
+          "@id": "zip-20250406"
+        },
+        {
+          "@id": "zip-20250407"
+        },
+        {
+          "@id": "zip-20250408"
+        },
+        {
+          "@id": "zip-20250409"
+        }
+      ],
+      "encodingFormat": "application/octet-stream",
+      "includes": "*/spc_outlooks/*day1otlk_*.(shp|shx|dbf|prj)"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "bufkit-records",
+      "name": "bufkit-records",
+      "description": "Records representing individual BUFKIT sounding files.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "bufkit-filepath",
+          "name": "filepath",
+          "description": "Relative path to the BUFKIT file.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileSet": {
+              "@id": "bufkit-files"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "bufkit-filename",
+          "name": "filename",
+          "description": "Filename of the BUFKIT file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "bufkit-files"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "bufkit-date",
+          "name": "date",
+          "description": "Date of the sounding (YYYYMMDD), extracted from directory name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "bufkit-files"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": "hrrr_(\\\\d{8})_00z/bufkit/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "bufkit-station-id",
+          "name": "station_id",
+          "description": "Station identifier for the sounding, extracted from filename.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "bufkit-files"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            },
+            "transform": {
+              "regex": "hrrr_([a-zA-Z0-9#]+)\\\\.buf"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "ground-truth-records",
+      "name": "ground-truth-records",
+      "description": "Records from ground truth CSV files containing tornado reports.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-filepath",
+          "name": "filepath",
+          "description": "Relative path to the ground truth CSV file.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-date",
+          "name": "date",
+          "description": "Date of the reports (YYYYMMDD), extracted from directory name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": "hrrr_(\\\\d{8})_00z/ground_truth/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-time",
+          "name": "time",
+          "description": "Time of the tornado report (HHMM).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "Time"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-f-scale",
+          "name": "f_scale",
+          "description": "Fujita scale rating of the tornado (e.g., EF0-EF5, UNK for unknown).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "F_Scale"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-location",
+          "name": "location",
+          "description": "Location description of the tornado.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "Location"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-county",
+          "name": "county",
+          "description": "County where the tornado was reported.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "County"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-state",
+          "name": "state",
+          "description": "State abbreviation where the tornado was reported.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "State"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-lat",
+          "name": "latitude",
+          "description": "Latitude of the tornado report.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "Lat"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-lon",
+          "name": "longitude",
+          "description": "Longitude of the tornado report.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "Lon"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ground-truth-comments",
+          "name": "comments",
+          "description": "Additional comments about the tornado report.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "ground-truth-reports"
+            },
+            "extract": {
+              "column": "Comments"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "hrrr-grib2-records",
+      "name": "hrrr-grib2-records",
+      "description": "Records representing individual HRRR GRIB2 model data files.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "grib2-filepath",
+          "name": "filepath",
+          "description": "Relative path to the GRIB2 file.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-grib2-maps"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "grib2-date",
+          "name": "date",
+          "description": "Date of the GRIB2 data (YYYYMMDD), extracted from directory name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-grib2-maps"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": "hrrr_(\\\\d{8})_00z/hrrr_maps/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "grib2-forecast-hour",
+          "name": "forecast_hour",
+          "description": "Forecast hour (e.g., f<FH>), extracted from filename.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-grib2-maps"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            },
+            "transform": {
+              "regex": "hrrr\\\\.t00z\\\\.wrfsfcf(\\\\d+)\\\\.grib2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "hrrr-plot-records",
+      "name": "hrrr-plot-records",
+      "description": "Records representing individual HRRR plot images.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "plot-filepath",
+          "name": "filepath",
+          "description": "Relative path to the plot PNG file.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-plot-images"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plot-date",
+          "name": "date",
+          "description": "Date of the plot (YYYYMMDD), extracted from directory name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-plot-images"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": "hrrr_(\\\\d{8})_00z/hrrr_plots/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plot-variable-path",
+          "name": "variable_path",
+          "description": "Meteorological variable shown in the plot, extracted from filepath.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-plot-images"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": ".*/hrrr_plots/([^/]+)/.*\\\\.png"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plot-forecast-hour",
+          "name": "forecast_hour",
+          "description": "Forecast hour (e.g., f<FH>), extracted from filename.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "hrrr-plot-images"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            },
+            "transform": {
+              "regex": "hrrr\\\\.t00z\\\\.wrfsfcf(\\\\d+)_.*\\\\.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "spc-outlook-component-records",
+      "name": "spc-outlook-component-records",
+      "description": "Records representing individual SPC convective outlook shapefile component files.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "spc-component-filepath",
+          "name": "filepath",
+          "description": "Relative path to the SPC outlook shapefile component file.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileSet": {
+              "@id": "spc-outlook-components"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "spc-component-date-from-dir",
+          "name": "date_from_parent_dir",
+          "description": "Date of the outlook (YYYYMMDD), extracted from parent directory name of the component file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "spc-outlook-components"
+            },
+            "extract": {
+              "fileProperty": "filepath"
+            },
+            "transform": {
+              "regex": "hrrr_(\\\\d{8})_00z/spc_outlooks/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "spc-component-date-from-filename",
+          "name": "outlook_date_from_filename",
+          "description": "Date of the outlook (YYYYMMDD) from component filename.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "spc-outlook-components"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            },
+            "transform": {
+              "regex": "day1otlk_(\\\\d{8})_.*\\\\.(shp|shx|dbf|prj)"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "spc-component-extension",
+          "name": "extension",
+          "description": "File extension of the shapefile component.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "spc-outlook-components"
+            },
+            "extract": {
+              "fileProperty": "filename"
+            },
+            "transform": {
+              "regex": ".*\\\\.([a-zA-Z0-9]+)$"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "datePublished": "2025-05-15"
+}

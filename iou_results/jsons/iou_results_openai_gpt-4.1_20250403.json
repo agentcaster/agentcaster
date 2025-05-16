@@ -1,0 +1,32 @@
+{
+  "date": "20250403",
+  "model": "openai_gpt-4.1",
+  "per_category_iou": {
+    "2%": 0.09038775758029038,
+    "5%": 0.0,
+    "10%": 0.0,
+    "15%": 1.0,
+    "30%": 1.0,
+    "45%": 1.0,
+    "60%": 1.0,
+    "0%": 0.9494426418705141
+  },
+  "daily_mean_iou": 0.6299787999313505,
+  "daily_tornadobench": 0.03012925252676346,
+  "daily_weight": 2,
+  "is_false_alarm": false,
+  "is_hard_hallucination": false,
+  "max_risk_status": "over",
+  "daily_weighted_hallucination_loss": 0.0,
+  "gt_overall_centroid_x": 718086.5717651118,
+  "gt_overall_centroid_y": 1237750.6453976098,
+  "pred_overall_centroid_x": 292293.9034157861,
+  "pred_overall_centroid_y": 973382.0059929183,
+  "overall_centroid_distance": 501188.76076856174,
+  "gt_hr_centroid_x": 718086.5717651118,
+  "gt_hr_centroid_y": 1237750.6453976098,
+  "pred_hr_centroid_x": 406408.3393306908,
+  "pred_hr_centroid_y": 1025091.4919592792,
+  "hr_centroid_distance": 377315.8307234834,
+  "gt_had_actual_risk": true
+}
